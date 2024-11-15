@@ -17,5 +17,5 @@ def check_and_remove_invalid_images(directory):
             os.remove(file_path)
 
 # Ganti path di bawah dengan lokasi folder Jahe Anda
-check_and_remove_invalid_images(r"E:\BANGKIT\Project Capstone\Nyoba - Copy\test")
+check_and_remove_invalid_images(r"E:\BANGKIT\Project Capstone\ML-side\data\Lengkuas")
 

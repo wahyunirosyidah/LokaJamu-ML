@@ -1,7 +1,7 @@
 import os
 
 # Specify the directory containing the image files
-directory_path = r'data/Jahe'
+directory_path = r'data/Lengkuas'
 
 # Specify the new extension (in lowercase) you want to use
 new_extension = 'png'
@@ -14,7 +14,7 @@ for filename in os.listdir(directory_path):
     # Check if the file has one of the specified extensions
     if filename.lower().endswith(('.jpeg', '.png', '.jpg', '.gif', '.webp')):
         # Build the new file name
-        new_filename = f'jahe_{counter}.{new_extension}'
+        new_filename = f'lengkuas_{counter}.{new_extension}'
 
         # Build the old and new file paths
         old_file_path = os.path.join(directory_path, filename)
